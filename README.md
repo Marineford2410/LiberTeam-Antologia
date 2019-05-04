@@ -12,3 +12,7 @@ Pagina Web de una antología de libros favoritos
 - Luis Angel Garcia Cervantes (ST)
 
 	- GitHub: [LuisGC01](https://github.com/LuisGC01)
+
+- Lezly Dialid Cerón Rodríguez (ST)
+
+	- GitHub: [DialidW](https://github.com/DialidW)
