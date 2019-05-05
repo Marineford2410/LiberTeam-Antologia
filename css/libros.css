@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1ed02;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background: #1300c0; /* 202c45*/
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+nav h1 {
+    margin: 0;
+    padding: 15px 20px;
+    float: left;
+    color: #ffffff;
+}
+
+#logo{
+    margin: 0;
+    padding: 15px 20px;
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+    transition: .5%;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #1889f2;
+}
+
+.responsive-bar {
+    width: 100%;
+    background: #1300c0;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.responsive-bar h3 {
+    margin: 0;
+    padding: 3px 0;
+    color: #ffffff;
+    float: left;
+}
+
+.responsive-bar h4 {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    float: right;
+    padding: 5px 10px;
+    background: #1889f2;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#titulo {
+    text-align: center;
+    padding: 50px 30px;
+}
+
+#portada{
+    margin-bottom: 25px;
+    float: left;
+    padding: 10px 100px 10px 15%;
+}
+
+#portada img {
+    width: 250px; 
+}
+
+#autor {
+    width: 75px; 
+    border-radius: 50%;
+}
+
+.descr_autor {
+    text-align: center;
+    padding: 0 25%;
+}
+
+.descripcion {
+    text-align: justify;
+    margin: 15px 0;
+    padding: 0 25%;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    background: #1300c0; /* 202c45*/
+    padding: 25px 100px;
+    box-sizing: border-box;
+    text-align-last: center;
+    color: #ffffff;
+}
+
+@media (max-width: 900px){
+    nav {
+        display: none;
+        padding: 0;
+    }
+
+    .responsive-bar {
+        display: block;
+    }
+
+    nav h1 {
+        display: block;
+        float: none;
+    }
+
+    nav ul {
+        float: none;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        background: #1300c0;
+        padding: 15px 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, .1)
+    }
+
+    #logo{
+        display: none;
+    }
+
+    h1.brand {
+        display: none;
+    }
+
+    #portada {
+        float: none;
+
+    }
+
+    #portada img {
+        display: block;
+        margin: auto;
+    }
+}
+
+

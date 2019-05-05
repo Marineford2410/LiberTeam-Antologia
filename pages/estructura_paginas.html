@@ -2,22 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../css/libros.css">
     <title>Estructura</title>
 </head>
 <body>
-    <header>
-        <section>
-            <img src="" alt="Logo"> <h2>Nombre Pagina</h2>
-        </section>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Equipo</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    <section class="responsive-bar">
+        <h3 class="brand">Antologia</h3>
+        <h4 class="menu">Menu</h4>
+        <div style="clear: both"></div>
+    </section>
+    <nav> 
+        <img id="logo" src="../images/icono.jpg" alt="Logo">
+        <h1 class="brand">Antologia</h1>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="#">Equipo</a></li>
+        </ul>
+        <div style="clear: both"></div>
+    </nav>
+    
+    <!--
     <main>
         <h1>Nombre del Libro</h1>
         <section>
@@ -39,6 +44,10 @@
     <footer>
             <p>&copy; Copyright 2019 <b>Sistemas de Información 2810</b> All righats reserved</p>
     </footer>
+    -->
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/nav_bar.js"></script>
 </body>
 </html>
+
