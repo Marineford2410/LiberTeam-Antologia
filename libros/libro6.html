@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Nocturna :: Guillermo Del Toro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../css/libros.css">
+    <title>Nocturna :: Guillermo Del Toro</title>
 </head>
 <body>
   <header>
-    <section>
-      <img src="" alt="Logo"> <h2>Nombre Pagina</h2>
-    </section>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="#">Equipo</a></li>
-      </ul>
-    </nav>
+      <section class="responsive-bar">
+          <h3 class="brand">Antología</h3>
+          <h4 class="menu">Menú</h4>
+          <div style="clear: both"></div>
+      </section>
+      <nav> 
+          <img id="logo" src="../images/icono.jpg" alt="Logo">
+          <h1 class="brand">Antología</h1>
+          <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../pages/informacionCreadores.html">Equipo</a></li>
+          </ul>
+          <div style="clear: both"></div>
+      </nav>
   </header>
 
   <main>
-    <h1>Nocturna</h1>
-    <section>
-      <img src="../images/libro6.jpg" alt="portada">
-    </section>
-    <section>
-      <article>
-        <img src="../images/autor6.jpg" alt="autor"> <h3>Autor: Guillermo Del Toro</h3>
-      </article>
-      <article>
-        <br>Un Boeing 777 aterriza en el aeropuerto John F. Kennedy de Nueva
-        <br>York proveniente de Berl�n, y cuando se dirige a la puerta para
-        <br>que los pasajeros empiecen a desembarcar, de repente se oscurece.
-        <br>La torre de control pierde contacto con el piloto y toda la
-        <br>actividad el�ctrica del aparato se corta. No se escuchan m�viles,
-        <br>ni BlackBerries, ni la radio, nada. Las cortinas de las
-        <br>ventanillas est�n bajadas y no se ve a nadie dentro. Se re�ne un
-        <br>equipo de emergencias y todos observan al avi�n silencioso ahora
-        <br>ba�ado por las luces del aeropuerto, en completo silencio. Parece
-        <br>una gigantesca l�pida blanca que brilla contra el oscuro cielo de
-        <br>la noche.
-      </article>
-    </section>
+      <h1 id="titulo">Nocturna</h1>
+      <section id="portada">
+          <img src="../images/libro6.jpg" alt="portada">
+      </section>
+      <section>
+          <article class="descr_autor">
+              <img id="autor" src="../images/autor6.jpg" alt="autor"> <h3>Autor: Guillermo Del Toro</h3>
+          </article>
+          <article class="descripcion">
+            Un Boeing 777 aterriza en el aeropuerto John F. Kennedy de Nueva
+            York proveniente de Berlín, y cuando se dirige a la puerta para
+            que los pasajeros empiecen a desembarcar, de repente se oscurece.
+            La torre de control pierde contacto con el piloto y toda la
+            actividad eléctrica del aparato se corta. No se escuchan móviles,
+            ni BlackBerries, ni la radio, nada. Las cortinas de las
+            ventanillas están bajadas y no se ve a nadie dentro. Se reune un
+            equipo de emergencias y todos observan al avión silencioso ahora
+            basado por las luces del aeropuerto, en completo silencio. Parece
+            una gigantesca lápida blanca que brilla contra el oscuro cielo de
+            la noche.
+          </article>
+      </section>
+      <div style="clear: both; padding: 10px"></div>
   </main>
 
   <footer>
     <p>&copy; Copyright 2019 <b>Sistemas de Información 2810</b> All rights reserved</p>
   </footer>
-
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/nav_bar.js"></script>
 </body>
 </html>
