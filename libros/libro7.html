@@ -2,54 +2,65 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="../css/libros.css">
   <title>Oscura :: Guillermo Del Toro</title>
 </head>
 <body>
   <header>
-    <section>
-      <img src="" alt="Logo"> <h2>Nombre Pagina</h2>
-    </section>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="#">Equipo</a></li>
-      </ul>
-    </nav>
+      <section class="responsive-bar">
+          <h3 class="brand">Antología</h3>
+          <h4 class="menu">Menú</h4>
+          <div style="clear: both"></div>
+      </section>
+      <nav> 
+          <img id="logo" src="../images/icono.jpg" alt="Logo">
+          <h1 class="brand">Antología</h1>
+          <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../pages/informacionCreadores.html">Equipo</a></li>
+          </ul>
+          <div style="clear: both"></div>
+      </nav>
   </header>
 
   <main>
-    <h1>Oscura</h1>
-    <section>
-      <img src="../images/libro7.jpg" alt="portada">
-    </section>
-    <section>
-      <article>
-        <img src="../images/autor6.jpg" alt="autor"> <h3>Autor: Guillermo Del Toro</h3>
-      </article>
-      <article>
-        <br>La raza vampírica desciende de siete "Antiguos". Un sector de
-        <br>los vampiros, liderados por un Antiguo renegado conocido como
-        <br>"el Amo", completa su avance sobre la civilización humana. El
-        <br>anciano billonario Eldritch Palmer, a quien el Amo le había
-        <br>prometido inmortalidad, utiliza su influencia sobre los medios
-        <br>para asegurar que no haya resistencia contra los vampiros.
-        <br>Abraham Setrakian, un anciano cazador de vampiros, espera que el
-        <br>viejo grimorio Occido Lumen tenga la clave para derrotar al Amo,
-        <br>y se dedica a buscarlo antes que las fuerzas de su enemigo. Para
-        <br>ello cuenta con la ayuda del epidemiólogo Ephraim Goodweather y
-        <br>el cazador de plagas Vasiliy Fet, que forman parte de la
-        <br>resistencia contra los vampiros. Al mismo tiempo, Ephraim busca
-        <br>proteger a su hijo Zack de su ex esposa (y madre del niño)
-        <br>Kelly, quien ha sido transformada en vampiro y busca convertir a
-        <br>su familia. El resto de los vampiros "Antiguos" reclutan al
-        <br>pandillero Gus Elizalde para luchar contra el Amo.
-      </article>
-    </section>
+      <h1 id="titulo">Oscura</h1>
+      <section id="portada">
+          <img src="../images/libro7.jpg" alt="portada">
+      </section>
+      <section>
+          <article class="descr_autor">
+              <img id="autor" src="../images/autor6.jpg" alt="autor"> <h3>Autor: Guillermo Del Toro</h3>
+          </article>
+          <article class="descripcion">
+              <p>La raza vampírica desciende de siete "Antiguos". Un sector de
+              los vampiros, liderados por un Antiguo renegado conocido como
+              "el Amo", completa su avance sobre la civilización humana. El
+              anciano billonario Eldritch Palmer, a quien el Amo le había
+              prometido inmortalidad, utiliza su influencia sobre los medios
+              para asegurar que no haya resistencia contra los vampiros.</p>
+              <br>
+              <p>Abraham Setrakian, un anciano cazador de vampiros, espera que el
+              viejo grimorio Occido Lumen tenga la clave para derrotar al Amo,
+              y se dedica a buscarlo antes que las fuerzas de su enemigo. Para
+              ello cuenta con la ayuda del epidemiólogo Ephraim Goodweather y
+              el cazador de plagas Vasiliy Fet, que forman parte de la
+              resistencia contra los vampiros. Al mismo tiempo, Ephraim busca
+              proteger a su hijo Zack de su ex esposa (y madre del niño)
+              Kelly, quien ha sido transformada en vampiro y busca convertir a
+              su familia. El resto de los vampiros "Antiguos" reclutan al
+              pandillero Gus Elizalde para luchar contra el Amo.</p>
+              <br>
+          </article>
+      </section>
+      <div style="clear: both; padding: 10px"></div>
   </main>
 
   <footer>
     <p>&copy; Copyright 2019 <b>Sistemas de Información 2810</b> All rights reserved</p>
   </footer>
-
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/nav_bar.js"></script>
 </body>
 </html>
