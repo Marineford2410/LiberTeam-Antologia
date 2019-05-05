@@ -1,48 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Harry Potter y las reliquias de la muerte :: J. K. Rowling</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../css/libros.css">
+    <title>Harry Potter y las reliquias de la muerte :: J. K. Rowling</title>
 </head>
 <body>
-  <header>
-    <section>
-      <img src="" alt="Logo"> <h2>Nombre Pagina</h2>
-    </section>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="#">Equipo</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <section class="responsive-bar">
+            <h3 class="brand">Antología</h3>
+            <h4 class="menu">Menú</h4>
+            <div style="clear: both"></div>
+        </section>
+        <nav> 
+            <img id="logo" src="../images/icono.jpg" alt="Logo">
+            <h1 class="brand">Antología</h1>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/informacionCreadores.html">Equipo</a></li>
+            </ul>
+            <div style="clear: both"></div>
+        </nav>
+    </header>
 
-  <main>
-    <h1>Harry Potter y las reliquias de la muerte</h1>
-    <section>
-      <img src="../images/libro9.jpg" alt="portada">
-    </section>
-    <section>
-      <article>
-        <img src="../images/autor7.jpg" alt="autor"> <h3>Autor: J. K. Rowling</h3>
-      </article>
-      <article>
-        <br>Es el séptimo libro de la serie literaria Harry Potter, escrita
-        <br>por la autora británica J. K. Rowling. El libro se publicó el 21
-        <br>de julio de 2007, cerrando la serie que empezó diez años antes
-        <br>con la publicación de Harry Potter y la piedra filosofal
-        <br>publicado en 1997. Este último libro narra los acontecimientos
-        <br>que siguen directamente al libro anterior (Harry Potter y el
-        <br>misterio del príncipe) y concluye con el enfrentamiento final,
-        <br>largamente esperado, entre Harry Potter junto a sus amigos,
-        <br>frente a Lord Voldemort y los Mortífagos.
-      </article>
-    </section>
-  </main>
+    <main>
+        <h1 id="titulo">Harry Potter y las reliquias de la muerte</h1>
+        <section id="portada">
+            <img src="../images/libro9.jpg" alt="portada">
+        </section>
+        <section>
+            <article class="descr_autor">
+               <img id="autor" src="../images/autor7.jpg" alt="autor"> <h3>Autor: J. K. Rowling</h3>
+            </article>
+            <article class="descripcion">
+                <p>Es el séptimo libro de la serie literaria Harry Potter, escrita
+                por la autora británica J. K. Rowling. El libro se publicó el 21
+                de julio de 2007, cerrando la serie que empezó diez años antes
+                con la publicación de Harry Potter y la piedra filosofal
+                publicado en 1997. Este último libro narra los acontecimientos
+                que siguen directamente al libro anterior (Harry Potter y el
+                misterio del príncipe) y concluye con el enfrentamiento final,
+                largamente esperado, entre Harry Potter junto a sus amigos,
+                frente a Lord Voldemort y los Mortífagos.</p> 
+                <br>
+            </article>
+      </section>
+      <div style="clear: both; padding: 10px"></div>
+    </main>
 
   <footer>
     <p>&copy; Copyright 2019 <b>Sistemas de Información 2810</b> All rights reserved</p>
   </footer>
-
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/nav_bar.js"></script>
 </body>
 </html>
