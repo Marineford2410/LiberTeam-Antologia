@@ -2,42 +2,51 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../css/libros.css">
     <title>Los senderos de la libertad :: Carlos Sabino</title>
 </head>
 <body>
     <header>
-        <section>
-            <img src="" alt="Logo"> <h2>Nombre Pagina</h2>
+        <section class="responsive-bar">
+            <h3 class="brand">Antología</h3>
+            <h4 class="menu">Menú</h4>
+            <div style="clear: both"></div>
         </section>
-        <nav>
+        <nav> 
+            <img id="logo" src="../images/icono.jpg" alt="Logo">
+            <h1 class="brand">Antología</h1>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Equipo</a></li>
+                <li><a href="../pages/informacionCreadores.html">Equipo</a></li>
             </ul>
+            <div style="clear: both"></div>
         </nav>
     </header>
 
     <main>
-        <h1>Los senderos de la libertad</h1>
-        <section>
+        <h1 id="titulo">Los senderos de la libertad</h1>
+        <section id="portada">
             <img src="../images/libro2.png" alt="portada">
         </section>
         <section>
-            <article>
-                <img src="../images/autor2.jpg" alt="autor"> <h3>Autor: Carlos Sabino</h3>
+            <article class="descr_autor">
+                <img id="autor" src="../images/autor2.jpg" alt="autor"> <h3>Autor: Carlos Sabino</h3>
             </article>
-            <article>
-              <br> El lector podrá apreciar en este texto el nacimiento y el desarrollo
-              <br> de las ideas favorables a la libertad, la forma que asumieron en
-              <br> America Latina desde su independen-cia y las posiciones basicas que
-              <br> han sostenido y sostienen hoy sus principales exponentes.
+            <article  class="descripcion">
+                <p> El lector podrá apreciar en este texto el nacimiento y el desarrollo
+                de las ideas favorables a la libertad, la forma que asumieron en
+                America Latina desde su independen-cia y las posiciones basicas que
+                han sostenido y sostienen hoy sus principales exponentes.</p>
             </article>
         </section>
+        <div style="clear: both; padding: 10px"></div>
     </main>
 
     <footer>
             <p>&copy; Copyright 2019 <b>Sistemas de Información 2810</b> All rights reserved</p>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/nav_bar.js"></script>
 </body>
 </html>
