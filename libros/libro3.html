@@ -2,51 +2,60 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../css/libros.css">
     <title>Después del Estado de Bienestar:: Tom G. Palmer</title>
 </head>
 <body>
     <header>
-        <section>
-            <img src="" alt="Logo"> <h2>Nombre Pagina</h2>
+        <section class="responsive-bar">
+            <h3 class="brand">Antología</h3>
+            <h4 class="menu">Menú</h4>
+            <div style="clear: both"></div>
         </section>
-        <nav>
+        <nav> 
+            <img id="logo" src="../images/icono.jpg" alt="Logo">
+            <h1 class="brand">Antología</h1>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Equipo</a></li>
+                <li><a href="../pages/informacionCreadores.html">Equipo</a></li>
             </ul>
+            <div style="clear: both"></div>
         </nav>
     </header>
 
     <main>
-        <h1>Después del Estado de Bienestar</h1>
-        <section>
+        <h1 id="titulo">Después del Estado de Bienestar</h1>
+        <section id="portada">
             <img src="../images/libro3.png" alt="portada">
         </section>
         <section>
-            <article>
-                <img src="../images/autor3.png" alt="autor"> <h3>Autor: Tom. G. Palmer</h3>
+            <article class="descr_autor">
+                <img  id="autor" src="../images/autor3.png" alt="autor"> <h3>Autor: Tom. G. Palmer</h3>
             </article>
-            <article>
-            <br>  A los jóvenes de la actualidad se les está robando. Sus derechos.
-            <br>  Su libertad. Su dignidad. Su futuro. ¿Los culpables? Mi
-            <br>  generación y nuestros antecesores, quienes crearon o no pudieron
-            <br>  detener la extendida maquinaria mundial de robo, degradación,
-            <br>  manipulación y control social que denominamos Estado de Bienestar.
-            <br>  El Estado de Bienestar es responsable de dos crisis actuales:
-            <br>  la crisis financiera que ha desacelerado o incluso revertido
-            <br>  el crecimiento y ahogado las economías de todo el
-            <br>  mundo; y la crisis de la deuda que está afectando a Europa,
-            <br>  Estados Unidos y otros países. Ha amontonado deuda sobre
-            <br>  los hombros de los más vulnerables —los niños y los jóvenes—
-            <br>  y ha anunciado promesas imposibles de cumplir. La crisis de las
-            <br>  obligaciones sin financiamiento se está acercando. Y no será agradable.
-            <br>  Los ensayos de este volumen no son la última palabra sobre
-            <br>  el pasado, presente y futuro del Estado de Bienestar.
-            <br>  Muy por el contrario. Se presentan con la esperanza de que estimulen
-            <br> más reflexión, un mayor análisis y un examen de conciencia más profundo
-            <br> sobre el tema. Por lo tanto, algunos se presentan con un estilo más
-            <br> académico y otros con un estilo más periodístico; se basan en diversas
-            <br> disciplinas intelectuales. Se espera que ofrezcan algo valioso a cada lector.
+            <article class="descripcion">
+                <p>A los jóvenes de la actualidad se les está robando. Sus derechos.
+                Su libertad. Su dignidad. Su futuro. ¿Los culpables? Mi
+                generación y nuestros antecesores, quienes crearon o no pudieron
+                detener la extendida maquinaria mundial de robo, degradación,
+                manipulación y control social que denominamos Estado de Bienestar. </p>
+                <br>
+                <p>El Estado de Bienestar es responsable de dos crisis actuales:
+                la crisis financiera que ha desacelerado o incluso revertido
+                el crecimiento y ahogado las economías de todo el
+                mundo; y la crisis de la deuda que está afectando a Europa,
+                Estados Unidos y otros países. Ha amontonado deuda sobre
+                los hombros de los más vulnerables —los niños y los jóvenes—
+                y ha anunciado promesas imposibles de cumplir. La crisis de las
+                obligaciones sin financiamiento se está acercando. Y no será agradable.</p>
+                <br>
+                <p>Los ensayos de este volumen no son la última palabra sobre
+                el pasado, presente y futuro del Estado de Bienestar.
+                Muy por el contrario. Se presentan con la esperanza de que estimulen
+                más reflexión, un mayor análisis y un examen de conciencia más profundo
+                sobre el tema. Por lo tanto, algunos se presentan con un estilo más
+                académico y otros con un estilo más periodístico; se basan en diversas
+                disciplinas intelectuales. Se espera que ofrezcan algo valioso a cada lector.</p> 
             </article>
         </section>
     </main>
@@ -54,6 +63,7 @@
     <footer>
             <p>&copy; Copyright 2019 <b>Sistemas de Información 2810</b> All rights reserved</p>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/nav_bar.js"></script>
 </body>
 </html>
