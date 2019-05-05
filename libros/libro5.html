@@ -2,48 +2,56 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../css/libros.css">
     <title>Libertad para elegir :: Milton Friedman </title>
 </head>
 <body>
     <header>
-        <section>
-            <img src="" alt="Logo"> <h2>Nombre Pagina</h2>
+        <section class="responsive-bar">
+            <h3 class="brand">Antología</h3>
+            <h4 class="menu">Menú</h4>
+            <div style="clear: both"></div>
         </section>
-        <nav>
+        <nav> 
+            <img id="logo" src="../images/icono.jpg" alt="Logo">
+            <h1 class="brand">Antología</h1>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Equipo</a></li>
+                <li><a href="../pages/informacionCreadores.html">Equipo</a></li>
             </ul>
+            <div style="clear: both"></div>
         </nav>
     </header>
 
     <main>
-        <h1>Libertad para elegir</h1>
-        <section>
+        <h1 id="titulo">Libertad para elegir</h1>
+        <section id="portada">
             <img src="../images/libro5.jpg" alt="portada">
         </section>
         <section>
-            <article>
-                <img src="../images/autor5.jpg" alt="autor"> <h3>Autor: Milton Friedman</h3>
+            <article class="descr_autor">
+                <img id="autor" src="../images/autor5.jpg" alt="autor"> <h3>Autor: Milton Friedman</h3>
             </article>
-            <article>
-              <br>  Libertad de elegir es más que reeditar un clásico. Es un
-              <br>  homenaje a la sencillez y a la eficacia con las que  Milton Friedman
-              <br>  explicaba y defendía las mejores ideas, que son las ideas de la libertad.
-
-              <br>  Es una invitación a las generaciones más jóvenes a conocer, sin
-              <br>  intermediarios ni prejuicios, cómo y por qué Friedman argumenta que «la
-              <br>  libertad garantiza la posibilidad de que los desfavorecidos de hoy
-              <br>  sean los privilegiados de mañana». Reeditar Libertad de elegir significa
-              <br>  también compartir con Friedman afirmaciones como la siguiente: «Nuestra
-              <br>  sociedad es lo que hacemos de ella. Podemos diseñar nuestras instituciones.
-              <br>
-              <br>  Nada nos impide, si lo deseamos, edificar una sociedad que preserve
-              <br>  y estimule la libertad humana, que sepa mantener el lugar del Estado, y convertirlo
-              <br>  en nuestro servidor y no en nuestro amo». Esta reedición es también
-              <br>  un tributo a quien explicó, mejor que nadie, los errores en política
-              <br>  económica que llevaron a la Gran Depresión; y a quien ofreció medidas
-              <br>  atrevidas a favor de los más débiles como el impuesto negativo sobre la renta o el bono escolar.
+            <article class="descripcion">
+                <p>Libertad de elegir es más que reeditar un clásico. Es un
+                homenaje a la sencillez y a la eficacia con las que  Milton Friedman
+                explicaba y defendía las mejores ideas, que son las ideas de la libertad.</p>
+                <br>
+                <p>Es una invitación a las generaciones más jóvenes a conocer, sin
+                intermediarios ni prejuicios, cómo y por qué Friedman argumenta que «la
+                libertad garantiza la posibilidad de que los desfavorecidos de hoy
+                sean los privilegiados de mañana». Reeditar Libertad de elegir significa
+                también compartir con Friedman afirmaciones como la siguiente: «Nuestra
+                sociedad es lo que hacemos de ella. Podemos diseñar nuestras instituciones.</p>
+                <br>
+                <p>Nada nos impide, si lo deseamos, edificar una sociedad que preserve
+                y estimule la libertad humana, que sepa mantener el lugar del Estado, y convertirlo
+                en nuestro servidor y no en nuestro amo». Esta reedición es también
+                un tributo a quien explicó, mejor que nadie, los errores en política
+                económica que llevaron a la Gran Depresión; y a quien ofreció medidas
+                atrevidas a favor de los más débiles como el impuesto negativo sobre la renta o el bono escolar.</p>
+                <br>
             </article>
         </section>
     </main>
@@ -51,6 +59,7 @@
     <footer>
             <p>&copy; Copyright 2019 <b>Sistemas de Información 2810</b> All rights reserved</p>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/nav_bar.js"></script>
 </body>
 </html>
