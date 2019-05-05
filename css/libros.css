@@ -7,13 +7,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #f1ed02;
+    background:#F9CF00;
 }
 
 nav {
     width: 100%;
     height: auto;
-    background: #1300c0; /* 202c45*/
+    background: #0B3C5D; /* 202c45*/
     padding: 0 100px;
     box-sizing: border-box;
 }
@@ -58,7 +58,7 @@ nav ul li:hover {
 
 .responsive-bar {
     width: 100%;
-    background: #1300c0;
+    background: #0B3C5D;
     padding: 10px 30px;
     box-sizing: border-box;
     display: none;
@@ -117,7 +117,7 @@ footer{
     width: 100%;
     height: auto;
     margin-top: 15px;
-    background: #1300c0; /* 202c45*/
+    background: #0B3C5D; /* 202c45*/
     padding: 25px 100px;
     box-sizing: border-box;
     text-align-last: center;
@@ -146,7 +146,7 @@ footer{
     nav ul li {
         display: block;
         text-align: center;
-        background: #1300c0;
+        background: #0B3C5D;
         padding: 15px 20px;
         border-bottom: 1px solid rgba(255, 255, 255, .1)
     }
